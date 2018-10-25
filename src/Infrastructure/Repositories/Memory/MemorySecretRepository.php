@@ -1,11 +1,11 @@
 <?php
 
-namespace sdmd\Infrastructure\Repositories\Memory;
+namespace SharedSecret\Infrastructure\Repositories\Memory;
 
-use sdmd\Entities\Secret\Secret;
-use sdmd\Infrastructure\Repositories\SecretRepository;
-use sdmd\ValueObjects\SecretId\SecretId;
-use sdmd\ValueObjects\SecretId\SecretIdFactory;
+use SharedSecret\Entities\Secret\Secret;
+use SharedSecret\Infrastructure\Repositories\SecretRepository;
+use SharedSecret\ValueObjects\SecretId\SecretId;
+use SharedSecret\ValueObjects\SecretId\SecretIdFactory;
 use Ramsey\Uuid\Uuid;
 
 class MemorySecretRepository implements SecretRepository

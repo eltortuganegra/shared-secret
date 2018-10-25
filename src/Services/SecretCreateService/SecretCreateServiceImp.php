@@ -1,18 +1,18 @@
 <?php
 
-namespace sdmd\Services\SecretCreateService;
+namespace SharedSecret\Services\SecretCreateService;
 
 
-use sdmd\Entities\Secret\SecretFactory;
-use sdmd\Infrastructure\Mailers\Mailer;
-use sdmd\Infrastructure\Repositories\SecretRepository;
-use sdmd\Notifications\Email\SomebodyHasSharedASecretWithYouEmailNotification;
-use sdmd\Services\Service;
-use sdmd\Services\ServiceRequest;
-use sdmd\Services\ServiceResponse;
-use sdmd\ValueObjects\LinkForShare\LinkForShare;
-use sdmd\ValueObjects\LinkForShare\LinkForShareFactory;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Entities\Secret\SecretFactory;
+use SharedSecret\Infrastructure\Mailers\Mailer;
+use SharedSecret\Infrastructure\Repositories\SecretRepository;
+use SharedSecret\Notifications\Email\SomebodyHasSharedASecretWithYouEmailNotification;
+use SharedSecret\Services\Service;
+use SharedSecret\Services\ServiceRequest;
+use SharedSecret\Services\ServiceResponse;
+use SharedSecret\ValueObjects\LinkForShare\LinkForShare;
+use SharedSecret\ValueObjects\LinkForShare\LinkForShareFactory;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 
 
 class SecretCreateServiceImp implements Service, SecretCreateService

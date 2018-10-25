@@ -1,12 +1,12 @@
 <?php
 
-namespace sdmd\Infrastructure\Repositories;
+namespace SharedSecret\Infrastructure\Repositories;
 
 
-use sdmd\Entities\EntitiesFactory;
-use sdmd\Infrastructure\Repositories\Doctrine\DoctrineSecretRepository;
-use sdmd\Infrastructure\Repositories\Memory\MemorySecretRepository;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Entities\EntitiesFactory;
+use SharedSecret\Infrastructure\Repositories\Doctrine\DoctrineSecretRepository;
+use SharedSecret\Infrastructure\Repositories\Memory\MemorySecretRepository;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use Doctrine\ORM\EntityManagerInterface;
 
 class RepositoriesFactory

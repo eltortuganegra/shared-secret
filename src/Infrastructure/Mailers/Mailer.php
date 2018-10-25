@@ -1,8 +1,8 @@
 <?php
 
-namespace sdmd\Infrastructure\Mailers;
+namespace SharedSecret\Infrastructure\Mailers;
 
-use sdmd\ValueObjects\Mail\Mail;
+use SharedSecret\ValueObjects\Mail\Mail;
 
 interface Mailer
 {

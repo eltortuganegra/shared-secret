@@ -1,14 +1,14 @@
 <?php
 
-namespace sdmd\Infrastructure\Repositories\Doctrine;
+namespace SharedSecret\Infrastructure\Repositories\Doctrine;
 
 
-use sdmd\Entities\Secret\Secret;
-use sdmd\Entities\Secret\SecretFactory;
-use sdmd\ValueObjects\ExpirationTime\ExpirationTimeFactory;
-use sdmd\ValueObjects\Message\MessageFactory;
-use sdmd\ValueObjects\SecretId\SecretId;
-use sdmd\ValueObjects\SecretId\SecretIdFactory;
+use SharedSecret\Entities\Secret\Secret;
+use SharedSecret\Entities\Secret\SecretFactory;
+use SharedSecret\ValueObjects\ExpirationTime\ExpirationTimeFactory;
+use SharedSecret\ValueObjects\Message\MessageFactory;
+use SharedSecret\ValueObjects\SecretId\SecretId;
+use SharedSecret\ValueObjects\SecretId\SecretIdFactory;
 use Doctrine\ORM\EntityManager;
 
 class FindSecretFromDoctrineSecretRepository
@@ -35,7 +35,7 @@ class FindSecretFromDoctrineSecretRepository
 
     public function execute(SecretId $secretId): ?Secret
     {
-        $result = $this->entityManager->getRepository(\sdmd\Infrastructure\Repositories\Doctrine\Entities\Secret::class)->findOneBy([
+        $result = $this->entityManager->getRepository(\SharedSecret\Infrastructure\Repositories\Doctrine\Entities\Secret::class)->findOneBy([
             'secretId' => $secretId->getIdentifier()
         ]);
 

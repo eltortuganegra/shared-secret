@@ -1,12 +1,12 @@
 <?php
 
-use sdmd\Infrastructure\Mailers\MailerFactory;
-use sdmd\Infrastructure\Repositories\RepositoriesFactory;
-use sdmd\Services\SecretCreateService\SecretCreateService;
-use sdmd\Services\SecretDeleteService\SecretDeleteService;
-use sdmd\Services\SecretUnveilService\SecretUnveilService;
-use sdmd\Services\ServicesFactory;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Infrastructure\Mailers\MailerFactory;
+use SharedSecret\Infrastructure\Repositories\RepositoriesFactory;
+use SharedSecret\Services\SecretCreateService\SecretCreateService;
+use SharedSecret\Services\SecretDeleteService\SecretDeleteService;
+use SharedSecret\Services\SecretUnveilService\SecretUnveilService;
+use SharedSecret\Services\ServicesFactory;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use PHPUnit\Framework\TestCase;
 
 class ServicesFactoryTest extends TestCase

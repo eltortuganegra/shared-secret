@@ -1,9 +1,9 @@
 <?php
 
-namespace sdmd\Infrastructure\Mailers\Memory;
+namespace SharedSecret\Infrastructure\Mailers\Memory;
 
-use sdmd\Infrastructure\Mailers\Mailer;
-use sdmd\ValueObjects\Mail\Mail;
+use SharedSecret\Infrastructure\Mailers\Mailer;
+use SharedSecret\ValueObjects\Mail\Mail;
 
 
 class MemoryMailerImp implements Mailer

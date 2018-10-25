@@ -1,6 +1,6 @@
 <?php
 
-namespace sdmd\Infrastructure\Repositories\Doctrine\Entities;
+namespace SharedSecret\Infrastructure\Repositories\Doctrine\Entities;
 
 use Doctrine\ORM\Mapping as ORM;
 

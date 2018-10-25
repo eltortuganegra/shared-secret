@@ -1,8 +1,8 @@
 <?php
 
-namespace sdmd\Notifications\Email;
+namespace SharedSecret\Notifications\Email;
 
-use sdmd\ValueObjects\LinkForShare\LinkForShare;
+use SharedSecret\ValueObjects\LinkForShare\LinkForShare;
 
 class SomebodyHasSharedASecretWithYouEmailNotification
 {

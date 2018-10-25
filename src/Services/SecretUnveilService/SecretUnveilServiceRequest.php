@@ -1,11 +1,11 @@
 <?php
 
-namespace sdmd\Services\SecretUnveilService;
+namespace SharedSecret\Services\SecretUnveilService;
 
 
-use sdmd\Services\ServiceRequest;
-use sdmd\ValueObjects\SecretId\SecretId;
-use sdmd\ValueObjects\SecretId\SecretIdFactory;
+use SharedSecret\Services\ServiceRequest;
+use SharedSecret\ValueObjects\SecretId\SecretId;
+use SharedSecret\ValueObjects\SecretId\SecretIdFactory;
 
 class SecretUnveilServiceRequest implements ServiceRequest
 {

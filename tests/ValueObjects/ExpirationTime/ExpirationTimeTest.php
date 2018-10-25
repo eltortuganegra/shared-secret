@@ -2,7 +2,7 @@
 
 namespace app\tests\domain\ValueObjects\ExpirationTime;
 
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use PHPUnit\Framework\TestCase;
 
 class ExpirationTimeTest extends TestCase

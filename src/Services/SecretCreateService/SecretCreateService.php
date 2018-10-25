@@ -1,6 +1,6 @@
 <?php
 
-namespace sdmd\Services\SecretCreateService;
+namespace SharedSecret\Services\SecretCreateService;
 
 
 interface SecretCreateService

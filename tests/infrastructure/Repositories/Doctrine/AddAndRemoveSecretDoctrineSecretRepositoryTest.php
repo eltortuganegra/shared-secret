@@ -3,10 +3,10 @@
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Tools\Setup;
 use PHPUnit\Framework\TestCase;
-use sdmd\Entities\EntitiesFactory;
-use sdmd\Infrastructure\Repositories\Doctrine\EntityManagerFactory;
-use sdmd\Infrastructure\Repositories\RepositoriesFactory;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Entities\EntitiesFactory;
+use SharedSecret\Infrastructure\Repositories\Doctrine\EntityManagerFactory;
+use SharedSecret\Infrastructure\Repositories\RepositoriesFactory;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use Ramsey\Uuid\Uuid;
 
 class AddAndRemoveSecretDoctrineSecretRepositoryTest extends TestCase

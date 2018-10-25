@@ -1,9 +1,9 @@
 <?php
 
-namespace sdmd\Entities;
+namespace SharedSecret\Entities;
 
-use sdmd\Entities\Secret\SecretFactory;
-use sdmd\Entities\Secret\SecretFactoryImp;
+use SharedSecret\Entities\Secret\SecretFactory;
+use SharedSecret\Entities\Secret\SecretFactoryImp;
 
 class EntitiesFactory
 {

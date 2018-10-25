@@ -1,9 +1,9 @@
 <?php
 
-namespace sdmd\Infrastructure\Mailers\Local;
+namespace SharedSecret\Infrastructure\Mailers\Local;
 
-use sdmd\Infrastructure\Mailers\Mailer;
-use sdmd\ValueObjects\Mail\Mail;
+use SharedSecret\Infrastructure\Mailers\Mailer;
+use SharedSecret\ValueObjects\Mail\Mail;
 
 
 class LocalMailerImp implements Mailer

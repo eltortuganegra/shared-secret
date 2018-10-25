@@ -1,10 +1,10 @@
 <?php
 
-use sdmd\ValueObjects\ExpirationTime\ExpirationTimeFactory;
-use sdmd\ValueObjects\LinkForShare\LinkForShareFactory;
-use sdmd\ValueObjects\Message\MessageFactory;
-use sdmd\ValueObjects\SecretId\SecretIdFactory;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\ValueObjects\ExpirationTime\ExpirationTimeFactory;
+use SharedSecret\ValueObjects\LinkForShare\LinkForShareFactory;
+use SharedSecret\ValueObjects\Message\MessageFactory;
+use SharedSecret\ValueObjects\SecretId\SecretIdFactory;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use PHPUnit\Framework\TestCase;
 
 class ValueObjectsFactoryTest extends TestCase

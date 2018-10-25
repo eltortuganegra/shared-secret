@@ -1,9 +1,9 @@
 <?php
 
-use sdmd\Entities\EntitiesFactory;
-use sdmd\Infrastructure\Repositories\RepositoriesFactory;
-use sdmd\Infrastructure\Repositories\SecretRepository;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Entities\EntitiesFactory;
+use SharedSecret\Infrastructure\Repositories\RepositoriesFactory;
+use SharedSecret\Infrastructure\Repositories\SecretRepository;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use PHPUnit\Framework\TestCase;
 
 class MemorySecretRepositoryTest extends TestCase

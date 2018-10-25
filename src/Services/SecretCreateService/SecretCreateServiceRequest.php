@@ -1,12 +1,12 @@
 <?php
 
-namespace sdmd\Services\SecretCreateService;
+namespace SharedSecret\Services\SecretCreateService;
 
-use sdmd\Services\ServiceRequest;
-use sdmd\ValueObjects\ExpirationTime\ExpirationTimeFactoryImp;
-use sdmd\ValueObjects\Message\MessageFactoryImp;
-use sdmd\ValueObjects\SecretId\SecretId;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Services\ServiceRequest;
+use SharedSecret\ValueObjects\ExpirationTime\ExpirationTimeFactoryImp;
+use SharedSecret\ValueObjects\Message\MessageFactoryImp;
+use SharedSecret\ValueObjects\SecretId\SecretId;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use DateInterval;
 use DateTime;
 use Symfony\Component\Validator\Constraints\Date;

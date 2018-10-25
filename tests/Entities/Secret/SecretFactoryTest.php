@@ -3,13 +3,13 @@
 namespace App\tests\domain;
 
 
-use sdmd\Entities\EntitiesFactory;
-use sdmd\Entities\Secret\Secret;
-use sdmd\Entities\Secret\SecretFactoryImp;
-use sdmd\ValueObjects\ExpirationTime\ExpirationTimeFactoryImp;
-use sdmd\ValueObjects\Message\MessageFactoryImp;
-use sdmd\ValueObjects\SecretId\SecretIdFactoryImp;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Entities\EntitiesFactory;
+use SharedSecret\Entities\Secret\Secret;
+use SharedSecret\Entities\Secret\SecretFactoryImp;
+use SharedSecret\ValueObjects\ExpirationTime\ExpirationTimeFactoryImp;
+use SharedSecret\ValueObjects\Message\MessageFactoryImp;
+use SharedSecret\ValueObjects\SecretId\SecretIdFactoryImp;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use DateTime;
 use PHPUnit\Framework\TestCase;
 

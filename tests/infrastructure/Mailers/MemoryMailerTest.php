@@ -1,9 +1,9 @@
 <?php
 
 
-use sdmd\Infrastructure\Mailers\MailerFactory;
-use sdmd\Infrastructure\Mailers\MemoryMailerFactoryInterfaceImp;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Infrastructure\Mailers\MailerFactory;
+use SharedSecret\Infrastructure\Mailers\MemoryMailerFactoryInterfaceImp;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use PHPUnit\Framework\TestCase;
 
 class MemoryMailerTest extends TestCase

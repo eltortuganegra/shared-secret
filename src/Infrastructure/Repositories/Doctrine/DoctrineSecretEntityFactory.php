@@ -1,10 +1,10 @@
 <?php
 
-namespace sdmd\Infrastructure\Repositories\Doctrine;
+namespace SharedSecret\Infrastructure\Repositories\Doctrine;
 
 
-use sdmd\Entities\Secret\Secret;
-use sdmd\Infrastructure\Repositories\Doctrine\Entities\Secret as SecretDoctrineEntity;
+use SharedSecret\Entities\Secret\Secret;
+use SharedSecret\Infrastructure\Repositories\Doctrine\Entities\Secret as SecretDoctrineEntity;
 
 class DoctrineSecretEntityFactory
 {

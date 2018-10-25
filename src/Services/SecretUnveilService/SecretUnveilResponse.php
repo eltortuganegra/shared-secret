@@ -1,11 +1,11 @@
 <?php
 
-namespace sdmd\Services\SecretUnveilService;
+namespace SharedSecret\Services\SecretUnveilService;
 
 
-use sdmd\Entities\Secret\Secret;
-use sdmd\Services\ServiceResponse;
-use sdmd\ValueObjects\LinkForShare\LinkForShare;
+use SharedSecret\Entities\Secret\Secret;
+use SharedSecret\Services\ServiceResponse;
+use SharedSecret\ValueObjects\LinkForShare\LinkForShare;
 
 class SecretUnveilResponse implements ServiceResponse
 {

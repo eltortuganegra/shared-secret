@@ -1,6 +1,6 @@
 <?php
 
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use PHPUnit\Framework\TestCase;
 
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace sdmd\Services;
+namespace SharedSecret\Services;
 
 
 interface ServiceResponse

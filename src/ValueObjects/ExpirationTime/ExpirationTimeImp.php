@@ -1,6 +1,6 @@
 <?php
 
-namespace sdmd\ValueObjects\ExpirationTime;
+namespace SharedSecret\ValueObjects\ExpirationTime;
 
 
 class ExpirationTimeImp implements ExpirationTime

@@ -1,10 +1,10 @@
 <?php
 
-namespace sdmd\Services\SecretFindService;
+namespace SharedSecret\Services\SecretFindService;
 
 
-use sdmd\Services\ServiceRequest;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Services\ServiceRequest;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 
 class SecretFindServiceRequest implements ServiceRequest
 {

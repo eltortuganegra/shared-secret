@@ -1,6 +1,6 @@
 <?php
 
-namespace sdmd\Services\SecretUnveilService;
+namespace SharedSecret\Services\SecretUnveilService;
 
 
 use Exception;

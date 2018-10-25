@@ -1,6 +1,6 @@
 <?php
 
-namespace sdmd\Infrastructure\Repositories\Doctrine;
+namespace SharedSecret\Infrastructure\Repositories\Doctrine;
 
 
 use Doctrine\ORM\EntityManager;

@@ -3,11 +3,11 @@
 namespace App\tests\domain\Services;
 
 
-use sdmd\Infrastructure\Mailers\MailerFactory;
-use sdmd\Infrastructure\Mailers\MemoryMailerFactoryInterfaceImp;
-use sdmd\Infrastructure\Repositories\RepositoriesFactory;
-use sdmd\Services\SecretCreateService\SecretCreateServiceRequest;
-use sdmd\Services\ServicesFactory;
+use SharedSecret\Infrastructure\Mailers\MailerFactory;
+use SharedSecret\Infrastructure\Mailers\MemoryMailerFactoryInterfaceImp;
+use SharedSecret\Infrastructure\Repositories\RepositoriesFactory;
+use SharedSecret\Services\SecretCreateService\SecretCreateServiceRequest;
+use SharedSecret\Services\ServicesFactory;
 use PHPUnit\Framework\TestCase;
 
 class ValidEmailSecretCreateServiceTest extends TestCase

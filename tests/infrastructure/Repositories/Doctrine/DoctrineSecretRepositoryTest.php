@@ -3,9 +3,9 @@
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Tools\Setup;
 use PHPUnit\Framework\TestCase;
-use sdmd\Infrastructure\Repositories\RepositoriesFactory;
-use sdmd\Infrastructure\Repositories\SecretRepository;
-use sdmd\ValueObjects\SecretId\SecretId;
+use SharedSecret\Infrastructure\Repositories\RepositoriesFactory;
+use SharedSecret\Infrastructure\Repositories\SecretRepository;
+use SharedSecret\ValueObjects\SecretId\SecretId;
 
 class DoctrineSecretRepositoryTest extends TestCase
 {

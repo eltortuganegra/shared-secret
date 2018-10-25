@@ -1,9 +1,9 @@
 <?php
 
-namespace sdmd\Infrastructure\Repositories;
+namespace SharedSecret\Infrastructure\Repositories;
 
-use sdmd\Entities\Secret\Secret;
-use sdmd\ValueObjects\SecretId\SecretId;
+use SharedSecret\Entities\Secret\Secret;
+use SharedSecret\ValueObjects\SecretId\SecretId;
 
 interface SecretRepository
 {

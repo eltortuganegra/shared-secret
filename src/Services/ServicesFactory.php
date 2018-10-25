@@ -1,16 +1,16 @@
 <?php
 
-namespace sdmd\Services;
+namespace SharedSecret\Services;
 
 
-use sdmd\Entities\EntitiesFactory;
-use sdmd\Infrastructure\Mailers\Mailer;
-use sdmd\Infrastructure\Repositories\SecretRepository;
-use sdmd\Services\SecretCreateService\SecretCreateServiceImp;
-use sdmd\Services\SecretDeleteService\SecretDeleteServiceImp;
-use sdmd\Services\SecretFindService\SecretFindServiceImp;
-use sdmd\Services\SecretUnveilService\SecretUnveilServiceImp;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Entities\EntitiesFactory;
+use SharedSecret\Infrastructure\Mailers\Mailer;
+use SharedSecret\Infrastructure\Repositories\SecretRepository;
+use SharedSecret\Services\SecretCreateService\SecretCreateServiceImp;
+use SharedSecret\Services\SecretDeleteService\SecretDeleteServiceImp;
+use SharedSecret\Services\SecretFindService\SecretFindServiceImp;
+use SharedSecret\Services\SecretUnveilService\SecretUnveilServiceImp;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 
 class ServicesFactory
 {

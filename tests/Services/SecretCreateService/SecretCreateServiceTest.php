@@ -3,13 +3,13 @@
 namespace App\tests\domain\Services;
 
 
-use sdmd\Entities\Secret\Secret;
-use sdmd\Infrastructure\Mailers\MailerFactory;
-use sdmd\Infrastructure\Repositories\RepositoriesFactory;
-use sdmd\Services\SecretCreateService\SecretCreateServiceRequest;
-use sdmd\Services\ServiceResponse;
-use sdmd\Services\ServicesFactory;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Entities\Secret\Secret;
+use SharedSecret\Infrastructure\Mailers\MailerFactory;
+use SharedSecret\Infrastructure\Repositories\RepositoriesFactory;
+use SharedSecret\Services\SecretCreateService\SecretCreateServiceRequest;
+use SharedSecret\Services\ServiceResponse;
+use SharedSecret\Services\ServicesFactory;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use PHPUnit\Framework\TestCase;
 
 class SecretCreateServiceTest extends TestCase

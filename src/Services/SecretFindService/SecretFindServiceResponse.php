@@ -1,10 +1,10 @@
 <?php
 
-namespace sdmd\Services\SecretFindService;
+namespace SharedSecret\Services\SecretFindService;
 
 
-use sdmd\Entities\Secret\Secret;
-use sdmd\Services\ServiceResponse;
+use SharedSecret\Entities\Secret\Secret;
+use SharedSecret\Services\ServiceResponse;
 
 class SecretFindServiceResponse implements ServiceResponse
 {

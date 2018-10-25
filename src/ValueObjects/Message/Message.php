@@ -1,6 +1,6 @@
 <?php
 
-namespace sdmd\ValueObjects\Message;
+namespace SharedSecret\ValueObjects\Message;
 
 
 interface Message

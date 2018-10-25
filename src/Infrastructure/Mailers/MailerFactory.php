@@ -1,10 +1,10 @@
 <?php
 
-namespace sdmd\Infrastructure\Mailers;
+namespace SharedSecret\Infrastructure\Mailers;
 
 
-use sdmd\Infrastructure\Mailers\Local\LocalMailerImp;
-use sdmd\Infrastructure\Mailers\Memory\MemoryMailerImp;
+use SharedSecret\Infrastructure\Mailers\Local\LocalMailerImp;
+use SharedSecret\Infrastructure\Mailers\Memory\MemoryMailerImp;
 
 class MailerFactory
 {

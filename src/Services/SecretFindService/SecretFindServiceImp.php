@@ -1,14 +1,14 @@
 <?php
 
-namespace sdmd\Services\SecretFindService;
+namespace SharedSecret\Services\SecretFindService;
 
 
-use sdmd\Entities\Secret\Secret;
-use sdmd\Infrastructure\Repositories\SecretRepository;
-use sdmd\Services\SecretUnveilService\SecretNotFoundException;
-use sdmd\Services\Service;
-use sdmd\Services\ServiceRequest;
-use sdmd\Services\ServiceResponse;
+use SharedSecret\Entities\Secret\Secret;
+use SharedSecret\Infrastructure\Repositories\SecretRepository;
+use SharedSecret\Services\SecretUnveilService\SecretNotFoundException;
+use SharedSecret\Services\Service;
+use SharedSecret\Services\ServiceRequest;
+use SharedSecret\Services\ServiceResponse;
 use DateTime;
 
 class SecretFindServiceImp implements Service, SecretFindService

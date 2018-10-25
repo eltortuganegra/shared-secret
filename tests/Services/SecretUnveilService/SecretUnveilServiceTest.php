@@ -1,13 +1,13 @@
 <?php
 
-use sdmd\Entities\EntitiesFactory;
-use sdmd\Infrastructure\Repositories\RepositoriesFactory;
-use sdmd\Services\SecretUnveilService\SecretUnveilServiceRequest;
-use sdmd\Services\Service;
-use sdmd\Services\ServicesFactory;
-use sdmd\ValueObjects\ExpirationTime\ExpirationTime;
-use sdmd\ValueObjects\Message\Message;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Entities\EntitiesFactory;
+use SharedSecret\Infrastructure\Repositories\RepositoriesFactory;
+use SharedSecret\Services\SecretUnveilService\SecretUnveilServiceRequest;
+use SharedSecret\Services\Service;
+use SharedSecret\Services\ServicesFactory;
+use SharedSecret\ValueObjects\ExpirationTime\ExpirationTime;
+use SharedSecret\ValueObjects\Message\Message;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use PHPUnit\Framework\TestCase;
 
 class SecretUnveilServiceTest extends TestCase

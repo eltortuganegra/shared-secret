@@ -1,11 +1,11 @@
 <?php
 
-use sdmd\Entities\EntitiesFactory;
-use sdmd\Infrastructure\Repositories\RepositoriesFactory;
-use sdmd\Services\SecretUnveilService\ExpirationTimeIsExpiredException;
-use sdmd\Services\SecretUnveilService\SecretUnveilServiceRequest;
-use sdmd\Services\ServicesFactory;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Entities\EntitiesFactory;
+use SharedSecret\Infrastructure\Repositories\RepositoriesFactory;
+use SharedSecret\Services\SecretUnveilService\ExpirationTimeIsExpiredException;
+use SharedSecret\Services\SecretUnveilService\SecretUnveilServiceRequest;
+use SharedSecret\Services\ServicesFactory;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use PHPUnit\Framework\TestCase;
 
 class ExpiredExpirationTimeSecretUnveilServiceTest extends TestCase
@@ -45,7 +45,7 @@ class ExpiredExpirationTimeSecretUnveilServiceTest extends TestCase
         return $secretId;
     }
 
-    private function generateMessage(): \sdmd\ValueObjects\Message\Message
+    private function generateMessage(): \SharedSecret\ValueObjects\Message\Message
     {
         $messageText = 'This is awesome secret message.';
         $messageFactory = ValueObjectsFactory::getMessageFactory();
@@ -54,7 +54,7 @@ class ExpiredExpirationTimeSecretUnveilServiceTest extends TestCase
         return $message;
     }
 
-    private function generateExpirationTime(): \sdmd\ValueObjects\ExpirationTime\ExpirationTime
+    private function generateExpirationTime(): \SharedSecret\ValueObjects\ExpirationTime\ExpirationTime
     {
         $expirationTimeFactory = ValueObjectsFactory::getExpirationTimeFactory();
         $expirationTimeInSeconds = 1;

@@ -1,8 +1,8 @@
 <?php
 
-namespace sdmd\Services\SecretDeleteService;
+namespace SharedSecret\Services\SecretDeleteService;
 
-use sdmd\Services\ServiceResponse;
+use SharedSecret\Services\ServiceResponse;
 
 class SecretDeleteServiceResponse implements ServiceResponse
 {

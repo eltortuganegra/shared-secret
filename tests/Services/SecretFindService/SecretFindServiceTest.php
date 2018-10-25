@@ -1,11 +1,11 @@
 <?php
 
-use sdmd\Infrastructure\Mailers\MailerFactory;
-use sdmd\Infrastructure\Repositories\RepositoriesFactory;
-use sdmd\Services\SecretCreateService\SecretCreateServiceRequest;
-use sdmd\Services\SecretFindService\SecretFindServiceRequest;
-use sdmd\Services\ServicesFactory;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Infrastructure\Mailers\MailerFactory;
+use SharedSecret\Infrastructure\Repositories\RepositoriesFactory;
+use SharedSecret\Services\SecretCreateService\SecretCreateServiceRequest;
+use SharedSecret\Services\SecretFindService\SecretFindServiceRequest;
+use SharedSecret\Services\ServicesFactory;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use PHPUnit\Framework\TestCase;
 
 class SecretFindServiceTest extends TestCase

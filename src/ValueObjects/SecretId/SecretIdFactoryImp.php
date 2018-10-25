@@ -1,6 +1,6 @@
 <?php
 
-namespace sdmd\ValueObjects\SecretId;
+namespace SharedSecret\ValueObjects\SecretId;
 
 
 class SecretIdFactoryImp implements SecretIdFactory

@@ -1,6 +1,6 @@
 <?php
 
-namespace sdmd\ValueObjects\LinkForShare;
+namespace SharedSecret\ValueObjects\LinkForShare;
 
 
 interface LinkForShare

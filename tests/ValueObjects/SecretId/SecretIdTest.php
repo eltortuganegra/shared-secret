@@ -1,9 +1,9 @@
 <?php
 
-use sdmd\ValueObjects\SecretId\SecretId;
-use sdmd\ValueObjects\SecretId\SecretIdFactoryImp;
+use SharedSecret\ValueObjects\SecretId\SecretId;
+use SharedSecret\ValueObjects\SecretId\SecretIdFactoryImp;
 
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use PHPUnit\Framework\TestCase;
 
 class SecretIdTest extends TestCase

@@ -1,17 +1,17 @@
 <?php
 
-namespace sdmd\ValueObjects;
+namespace SharedSecret\ValueObjects;
 
-use sdmd\ValueObjects\ExpirationTime\ExpirationTimeFactory;
-use sdmd\ValueObjects\ExpirationTime\ExpirationTimeFactoryImp;
-use sdmd\ValueObjects\LinkForShare\LinkForShareFactory;
-use sdmd\ValueObjects\LinkForShare\LinkForShareFactoryImp;
-use sdmd\ValueObjects\Mail\MailFactory;
-use sdmd\ValueObjects\Mail\MailFactoryImp;
-use sdmd\ValueObjects\Message\MessageFactory;
-use sdmd\ValueObjects\Message\MessageFactoryImp;
-use sdmd\ValueObjects\SecretId\SecretIdFactory;
-use sdmd\ValueObjects\SecretId\SecretIdFactoryImp;
+use SharedSecret\ValueObjects\ExpirationTime\ExpirationTimeFactory;
+use SharedSecret\ValueObjects\ExpirationTime\ExpirationTimeFactoryImp;
+use SharedSecret\ValueObjects\LinkForShare\LinkForShareFactory;
+use SharedSecret\ValueObjects\LinkForShare\LinkForShareFactoryImp;
+use SharedSecret\ValueObjects\Mail\MailFactory;
+use SharedSecret\ValueObjects\Mail\MailFactoryImp;
+use SharedSecret\ValueObjects\Message\MessageFactory;
+use SharedSecret\ValueObjects\Message\MessageFactoryImp;
+use SharedSecret\ValueObjects\SecretId\SecretIdFactory;
+use SharedSecret\ValueObjects\SecretId\SecretIdFactoryImp;
 
 class ValueObjectsFactory
 {

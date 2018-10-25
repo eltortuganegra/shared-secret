@@ -1,9 +1,9 @@
 <?php
 
-namespace sdmd\Services\SecretDeleteService;
+namespace SharedSecret\Services\SecretDeleteService;
 
-use sdmd\Services\ServiceRequest;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Services\ServiceRequest;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 
 
 class SecretDeleteServiceRequest implements ServiceRequest

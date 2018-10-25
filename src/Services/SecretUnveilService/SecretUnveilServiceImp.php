@@ -1,13 +1,13 @@
 <?php
 
-namespace sdmd\Services\SecretUnveilService;
+namespace SharedSecret\Services\SecretUnveilService;
 
-use sdmd\Infrastructure\Repositories\SecretRepository;
-use sdmd\Services\Service;
-use sdmd\Services\ServiceRequest;
-use sdmd\Services\ServiceResponse;
-use sdmd\ValueObjects\LinkForShare\LinkForShare;
-use sdmd\ValueObjects\LinkForShare\LinkForShareFactory;
+use SharedSecret\Infrastructure\Repositories\SecretRepository;
+use SharedSecret\Services\Service;
+use SharedSecret\Services\ServiceRequest;
+use SharedSecret\Services\ServiceResponse;
+use SharedSecret\ValueObjects\LinkForShare\LinkForShare;
+use SharedSecret\ValueObjects\LinkForShare\LinkForShareFactory;
 use DateTime;
 
 class SecretUnveilServiceImp implements Service, SecretUnveilService

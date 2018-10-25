@@ -1,6 +1,6 @@
 <?php
 
-namespace sdmd\Services\SecretFindService;
+namespace SharedSecret\Services\SecretFindService;
 
 
 interface SecretFindService

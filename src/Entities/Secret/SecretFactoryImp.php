@@ -1,11 +1,11 @@
 <?php
 
-namespace sdmd\Entities\Secret;
+namespace SharedSecret\Entities\Secret;
 
 
-use sdmd\ValueObjects\ExpirationTime\ExpirationTime;
-use sdmd\ValueObjects\Message\Message;
-use sdmd\ValueObjects\SecretId\SecretId;
+use SharedSecret\ValueObjects\ExpirationTime\ExpirationTime;
+use SharedSecret\ValueObjects\Message\Message;
+use SharedSecret\ValueObjects\SecretId\SecretId;
 use DateTime;
 
 class SecretFactoryImp implements SecretFactory

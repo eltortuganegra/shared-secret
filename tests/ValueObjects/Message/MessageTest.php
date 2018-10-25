@@ -1,8 +1,8 @@
 <?php
 
-use sdmd\ValueObjects\Message\MessageFactoryImp;
-use sdmd\ValueObjects\Message\MessageIsVoidException;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\ValueObjects\Message\MessageFactoryImp;
+use SharedSecret\ValueObjects\Message\MessageIsVoidException;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use PHPUnit\Framework\TestCase;
 
 class MessageTest extends TestCase

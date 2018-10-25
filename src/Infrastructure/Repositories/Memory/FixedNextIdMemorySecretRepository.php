@@ -1,9 +1,9 @@
 <?php
 
-namespace sdmd\Infrastructure\Repositories\Memory;
+namespace SharedSecret\Infrastructure\Repositories\Memory;
 
 
-use sdmd\ValueObjects\SecretId\SecretId;
+use SharedSecret\ValueObjects\SecretId\SecretId;
 
 class FixedNextIdMemorySecretRepository extends MemorySecretRepository
 {

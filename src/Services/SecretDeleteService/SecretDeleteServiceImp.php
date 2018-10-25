@@ -1,11 +1,11 @@
 <?php
 
-namespace sdmd\Services\SecretDeleteService;
+namespace SharedSecret\Services\SecretDeleteService;
 
-use sdmd\Infrastructure\Repositories\SecretRepository;
-use sdmd\Services\Service;
-use sdmd\Services\ServiceRequest;
-use sdmd\Services\ServiceResponse;
+use SharedSecret\Infrastructure\Repositories\SecretRepository;
+use SharedSecret\Services\Service;
+use SharedSecret\Services\ServiceRequest;
+use SharedSecret\Services\ServiceResponse;
 
 class SecretDeleteServiceImp implements Service, SecretDeleteService
 {

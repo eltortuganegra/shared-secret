@@ -1,9 +1,9 @@
 <?php
 
 
-use sdmd\Infrastructure\Mailers\LocalMailerFactoryInterfaceImp;
-use sdmd\Infrastructure\Mailers\MailerFactory;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Infrastructure\Mailers\LocalMailerFactoryInterfaceImp;
+use SharedSecret\Infrastructure\Mailers\MailerFactory;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use PHPUnit\Framework\TestCase;
 
 class LocalMailerTest extends TestCase

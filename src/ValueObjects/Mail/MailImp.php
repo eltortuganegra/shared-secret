@@ -1,6 +1,6 @@
 <?php
 
-namespace sdmd\ValueObjects\Mail;
+namespace SharedSecret\ValueObjects\Mail;
 
 
 class MailImp implements Mail

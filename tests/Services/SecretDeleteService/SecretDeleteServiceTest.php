@@ -2,11 +2,11 @@
 
 namespace App\tests\domain\Services;
 
-use sdmd\Entities\EntitiesFactory;
-use sdmd\Infrastructure\Repositories\RepositoriesFactory;
-use sdmd\Services\SecretDeleteService\SecretDeleteServiceRequest;
-use sdmd\Services\ServicesFactory;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Entities\EntitiesFactory;
+use SharedSecret\Infrastructure\Repositories\RepositoriesFactory;
+use SharedSecret\Services\SecretDeleteService\SecretDeleteServiceRequest;
+use SharedSecret\Services\ServicesFactory;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use PHPUnit\Framework\TestCase;
 
 class SecretDeleteServiceTest extends TestCase

@@ -1,6 +1,6 @@
 <?php
 
-namespace sdmd\Services\SecretDeleteService;
+namespace SharedSecret\Services\SecretDeleteService;
 
 
 interface SecretDeleteService

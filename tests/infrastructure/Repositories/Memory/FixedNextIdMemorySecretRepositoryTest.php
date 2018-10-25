@@ -1,8 +1,8 @@
 <?php
 
 
-use sdmd\Infrastructure\Repositories\Memory\FixedNextIdMemorySecretRepository;
-use sdmd\ValueObjects\ValueObjectsFactory;
+use SharedSecret\Infrastructure\Repositories\Memory\FixedNextIdMemorySecretRepository;
+use SharedSecret\ValueObjects\ValueObjectsFactory;
 use PHPUnit\Framework\TestCase;
 
 class FixedNextIdMemorySecretRepositoryTest extends TestCase
