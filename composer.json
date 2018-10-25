@@ -1,0 +1,24 @@
+{
+    "name": "eltortuganegra/self-destruct-message-domain",
+    "description": "Domain",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^7.4",
+        "doctrine/orm": "^2.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "eltortuganegra",
+            "email": "jorge.sanchez@eltortuganegra.com"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "sdmd\\": "src/"
+        }
+    }
+}
