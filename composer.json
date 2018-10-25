@@ -1,5 +1,5 @@
 {
-    "name": "eltortuganegra/self-destruct-message-domain",
+    "name": "eltortuganegra/shared-secret",
     "description": "Domain",
     "type": "library",
     "require-dev": {
