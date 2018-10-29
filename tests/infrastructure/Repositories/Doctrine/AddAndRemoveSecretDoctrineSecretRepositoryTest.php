@@ -4,6 +4,7 @@ use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Tools\Setup;
 use PHPUnit\Framework\TestCase;
 use SharedSecret\Entities\EntitiesFactory;
+use SharedSecret\Infrastructure\Repositories\Doctrine\DataBaseConnectionParameters;
 use SharedSecret\Infrastructure\Repositories\Doctrine\EntityManagerFactory;
 use SharedSecret\Infrastructure\Repositories\RepositoriesFactory;
 use SharedSecret\ValueObjects\ValueObjectsFactory;
@@ -17,25 +18,13 @@ class AddAndRemoveSecretDoctrineSecretRepositoryTest extends TestCase
 
     public function setUp()
     {
-//        // Arrange
-//        $paths = [
-//            dirname(__FILE__) . '/../../../../../src/Infrastructure/Repositories/Doctrine/Entities'
-//        ];
-//        var_dump(
-//        dirname(__FILE__) . '/../../../../src/Infrastructure/Repositories/Doctrine/Entities'
-//        );
-//        $isDevMode = false;
-//        $config = Setup::createAnnotationMetadataConfiguration($paths, $isDevMode);
-//        $dbParams = array(
-//            'driver'   => 'pdo_mysql',
-//            'user'     => 'shared_secret',
-//            'password' => 'shared_secret',
-//            'dbname'   => 'shared_secret',
-//        );
-//
-//        $entityManager = EntityManager::create($dbParams, $config);
-
-        $entityManagerFactory = new EntityManagerFactory();
+        $config = new DataBaseConnectionParameters(
+            'pdo_mysql',
+            'shared_secret',
+            'shared_secret',
+            'shared_secret'
+        );
+        $entityManagerFactory = new EntityManagerFactory($config);
         $entityManager = $entityManagerFactory->getEntityManager();
 
         $this->secretRepository = RepositoriesFactory::getDoctrineSecretRepository($entityManager);
